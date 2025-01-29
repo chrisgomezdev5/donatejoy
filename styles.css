@@ -1,0 +1,131 @@
+.desktop-image {
+  
+    height: 100% !important;
+    width: 100% !important;
+    inset: unset !important;
+    object-fit: cover !important;
+    color: transparent !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
+    border: none !important;
+    margin: unset !important;
+    display: block !important;
+    min-width: 500px !important;
+    max-width: 100% !important;
+    min-height: 500px !important;
+    max-height: 100% !important;
+  
+  }
+  
+  .MuiBox-root .css-1lhgo8e::before {
+    width: 1px;
+      height: 90px;
+      content: " ";
+      float: right;
+  }
+  
+  
+  .MuiBox-root.css-3z4p8h .MuiGrid-container {
+    min-height: 500px;
+    height: 50vw;
+    position: relative;
+  }
+  
+  .MuiBox-root.css-3z4p8h .MuiGrid-container .MuiGrid-item:nth-child(1){
+    position: absolute;
+      left: 0px;
+      width: 100%;
+      z-index: 30;
+  }
+  
+  .MuiBox-root.css-3z4p8h .MuiGrid-container .MuiGrid-item:nth-child(2){
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    min-width: 500px;
+    min-height: 500px;
+    width: 50vw;
+    height: 50vw;
+  }
+  
+  @media screen and (max-width: 1415px) {
+    h1.css-oad5r3 {
+      font-size: 2.5vw !important;
+    }
+  
+  
+  }
+  
+  @media (min-width: 1280px) {
+      .css-1a64frr {
+          padding-top: 0px;
+          padding-bottom: 0px;
+      }
+  }
+  
+  @media screen and (max-width: 1280px) {
+    h1.css-oad5r3 {
+      font-size: 2.5vw !important;
+    }
+  
+    .MuiBox-root .css-1327219 {
+      font-size: 1.5rem;
+    }
+  
+    .desktop-image {
+      bottom: unset !important;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    .MuiBox-root.css-3z4p8h .MuiGrid-container .MuiGrid-item:nth-child(1) {
+      max-width: 80%;
+      position: relative;
+    }
+  
+  }
+  
+  @media screen and (max-width: 860px) {
+    .MuiBox-root.css-3z4p8h .MuiGrid-container .MuiGrid-item:nth-child(2)::before {
+      content: " ";
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      left: 0;
+      top: 0;
+      background-color: rgba(255, 255, 255, 0.3);
+      z-index: 20;
+      overflow: hidden;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+  
+    .MuiBox-root.css-3z4p8h .MuiGrid-container {
+      display: flex;
+      min-height: unset;
+      height: unset;
+      position: unset;
+    }
+  
+    .MuiBox-root.css-3z4p8h .MuiGrid-container .MuiGrid-item:nth-child(1){
+      position: unset;
+      max-width: unset;
+  
+    }
+  
+    .MuiBox-root.css-3z4p8h .MuiGrid-container .MuiGrid-item:nth-child(2){
+      position: unset;
+      min-width: unset; 
+      min-height: unset; 
+      width: unset; 
+      height: unset;
+    }
+  
+    .MuiBox-root.css-3z4p8h .MuiGrid-container .MuiGrid-item:nth-child(2)::before {
+      content: unset;
+  
+    }
+  }
+  
+ 
