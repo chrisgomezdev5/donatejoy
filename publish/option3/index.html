@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .wrapper {
+              display: flex; 
+              width: 100%;
+              margin: auto;
+              border: 1px dashed;
+              padding: 5px;
+              overflow: hidden;
+              resize: horizontal;
+              background-color: #cce5ff;
+            }
+            .float {
+              float: right; 
+              height: 100%; 
+              margin-left: 95px;
+              width: 50vw;
+              shape-outside: inset(calc(100% - 50vw /*height */) 0 0);
+              object-fit: contain;
+              object-position: bottom;
+            }
+            
+            
+            h2 {
+              text-align:center;
+            }
+            body {
+              font-family: sans-serif;
+              background: #eee;
+            }
+            p {
+              text-align: left;
+              margin: 0;
+              font-size: 20px;
+            }
+
+            span {
+                margin: 0px 95px;
+                height: 100%;
+                display: block;
+                font-size: 1.5rem;
+            }
+
+            #title {
+                font-weight: bold;
+                font-size: 3rem;
+                display: unset;
+                margin-left: 0px;
+            }
+
+            #button {
+                border-radius: 5.6rem;
+                padding: 1rem 1rem;
+                width: 130px;
+                height: 25px;
+                background-color: #323232;
+                color: #fff;
+                font-size: 1.3rem;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            </style>
+    </head>
+    <body>
+
+            
+            <div class="wrapper">
+              <p>
+                <img src="https://a-us.storyblok.com/f/1006745/1255x1255/4edc69c3ed/westwood-redhawks.webp/m/1263x0/filters:quality(80):format(webp)" class="float" alt="image with 4 raspberry">
+
+                <span>
+                    
+                    <span id="title">Donate Joy™ is on a mission to reach every teacher in America.</span>
+                    <br /><br />
+
+                    More than 3,700 schools received free popcorn through our Donate Joy™ program in 2024.
+                <br /><br />
+                Now we're on a mission to triple that impact and send popcorn to more than 10,000 schools in 2025.
+                <br /><br />
+                If you are a school employee or know someone who is, complete or share the sign-up form below to bring free popcorn to a school.    
+                <br /><br />
+                <span id="button">Sign-up Form</span>
+                </span>
+            </p>
+            
+            </div>
+    </body>
+</html>
